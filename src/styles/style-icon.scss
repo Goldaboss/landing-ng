@@ -1,0 +1,133 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+          url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?3abc2m') format('truetype'),
+          url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?3abc2m') format('woff'),
+          url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?3abc2m##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-rub:before {
+  content: "\e922";
+}
+.icon-Server:before {
+  content: "\e921";
+}
+.icon-Union-19:before {
+  content: "\e91f";
+}
+.icon-Union-20:before {
+  content: "\e920";
+}
+.icon-Union-15:before {
+  content: "\e919";
+}
+.icon-Union-13:before {
+  content: "\e91a";
+}
+.icon-Union-14:before {
+  content: "\e91b";
+}
+.icon-Union-16:before {
+  content: "\e91c";
+}
+.icon-Union-17:before {
+  content: "\e91d";
+}
+.icon-Mouse:before {
+  content: "\e91e";
+}
+.icon-Union-7:before {
+  content: "\e913";
+}
+.icon-Union-8:before {
+  content: "\e914";
+}
+.icon-Union-9:before {
+  content: "\e915";
+}
+.icon-Union-10:before {
+  content: "\e916";
+}
+.icon-Union-11:before {
+  content: "\e917";
+}
+.icon-Union-12:before {
+  content: "\e918";
+}
+.icon-Union-1:before {
+  content: "\e90d";
+}
+.icon-Union-2:before {
+  content: "\e90e";
+}
+.icon-Union-3:before {
+  content: "\e90f";
+}
+.icon-Union-4:before {
+  content: "\e910";
+}
+.icon-Union-5:before {
+  content: "\e911";
+}
+.icon-Union-6:before {
+  content: "\e912";
+}
+.icon-1:before {
+  content: "\e900";
+}
+.icon-2:before {
+  content: "\e901";
+}
+.icon-3:before {
+  content: "\e902";
+}
+.icon-4:before {
+  content: "\e903";
+}
+.icon-5:before {
+  content: "\e904";
+}
+.icon-6:before {
+  content: "\e905";
+}
+.icon-7:before {
+  content: "\e906";
+}
+.icon-8:before {
+  content: "\e907";
+}
+.icon-9:before {
+  content: "\e908";
+}
+.icon-10:before {
+  content: "\e909";
+}
+.icon-11:before {
+  content: "\e90a";
+}
+.icon-12:before {
+  content: "\e90b";
+}
+.icon-13:before {
+  content: "\e90c";
+}
