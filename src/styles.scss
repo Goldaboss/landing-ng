@@ -1,3 +1,6 @@
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
 html {
   font-size: 12px;
 }
@@ -30,4 +33,3 @@ button:active, button:focus {
 a:hover {
   text-decoration: none;
 }
-
