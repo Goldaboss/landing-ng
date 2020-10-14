@@ -1,4 +1,3 @@
-$bgBlueGradient: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
 .second {
 
   &__bg {
@@ -17,7 +16,6 @@ $bgBlueGradient: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
       background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
       z-index: -1;
     }
-
   }
 
   &__header {
@@ -76,10 +74,6 @@ $bgBlueGradient: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
         padding-right: 2rem;
       }
 
-      &-content {
-
-      }
-
       &-title {
         font-weight: bold;
         font-size: 1.5rem;
@@ -108,7 +102,7 @@ $bgBlueGradient: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
     font-size: 1.5rem;
     font-weight: bold;
     color: #ffffff;
-    background: $bgBlueGradient;
+    background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
     border-radius: 69px;
     border: none;
     padding: 1.3125rem 2.5rem;
