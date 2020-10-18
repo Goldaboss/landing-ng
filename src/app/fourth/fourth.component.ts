@@ -12,11 +12,11 @@ export class FourthComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  client() {
+  client(event?): any {
     this.toggleScheme = true;
   }
 
-  partner() {
+  partner(event?): any {
     this.toggleScheme = false;
   }
 }
