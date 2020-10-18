@@ -62,7 +62,9 @@
       }
 
       &-btn {
+
         background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+        border: none;
         border-bottom: 1px dashed transparent;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -71,14 +73,6 @@
         opacity: 0.4;
         cursor: pointer;
         border-bottom: 1px dashed #00D0F7;
-
-        &-active {
-          background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          opacity: 1;
-          border: none;
-        }
       }
     }
 
@@ -262,6 +256,14 @@
       }
     }
   }
+}
+
+.active {
+  background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  border: none;
 }
 
 @media (max-width: 992px) {
