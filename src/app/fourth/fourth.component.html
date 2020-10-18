@@ -16,8 +16,8 @@
           </div>
 
           <div class="fourth__main-header-button">
-            <a class="fourth__main-header-btn" (click)="client()" [ngClass]="{active: toggleScheme}">Для клиента</a>
-            <a class="fourth__main-header-btn" (click)="partner()" [ngClass]="{active: !toggleScheme}">Для партнера</a>
+            <a class="fourth__main-header-btn" (click)="client()" [ngClass]="{btn_active: toggleScheme}">Для клиента</a>
+            <a class="fourth__main-header-btn" (click)="partner()" [ngClass]="{btn_active: !toggleScheme}">Для партнера</a>
           </div>
         </div>
 
@@ -50,7 +50,7 @@
           </div>
         </div>
 
-        <ng-tamplate #scheme>
+        <ng-template #scheme>
           <div class="fourth__main-scheme " >
 
             <div class="fourth__main-scheme-left">
@@ -76,7 +76,7 @@
               УЦ выпускает сертификат
             </div>
           </div>
-        </ng-tamplate>
+        </ng-template>
       </div>
     </div>
   </div>

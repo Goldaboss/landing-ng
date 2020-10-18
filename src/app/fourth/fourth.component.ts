@@ -13,6 +13,7 @@ export class FourthComponent implements OnInit {
   }
 
   client(event?): any {
+    console.log('click');
     this.toggleScheme = true;
   }
 
