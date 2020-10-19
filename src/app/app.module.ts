@@ -8,6 +8,7 @@ import { SecondComponent } from './second/second.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ThirdComponent } from './third/third.component';
 import { FourthComponent } from './fourth/fourth.component';
+import { FifthComponent } from './fifth/fifth.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FourthComponent } from './fourth/fourth.component';
     FirstComponent,
     SecondComponent,
     ThirdComponent,
-    FourthComponent
+    FourthComponent,
+    FifthComponent
   ],
   imports: [
     BrowserModule,
