@@ -28,7 +28,7 @@
 
             <li class="third__main-capabilities-item" *ngFor="let i of capabilities">
               <div class="third__main-capabilities-item-icon">
-                <span class="{{i.icon}}"></span>
+                <span [ngClass]="i.icon"></span>
               </div>
               <div class="third__main-capabilities-item-content">{{i.text}}</div>
             </li>
