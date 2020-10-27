@@ -1,0 +1,29 @@
+.capabilities {
+
+  &-item {
+    display: flex;
+    align-items: center;
+
+    &-icon {
+      font-size: 2.5rem;
+      line-height: 1;
+      color: #2E5473;
+      width: 5rem;
+      flex-shrink: 0;
+      display: block;
+      margin: auto 0;
+      text-align: center;
+
+      &:last-child {
+        font-size: 2rem;
+      }
+    }
+
+    &-content {
+      font-size: 1.5rem;
+      line-height: 1.8125rem;
+    }
+  }
+}
+
+
