@@ -9,6 +9,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ThirdComponent } from './third/third.component';
 import { FourthComponent } from './fourth/fourth.component';
 import { FifthComponent } from './fifth/fifth.component';
+import {CapabilitiesItemComponent} from './third/capabilities-item/capabilities-item.component';
+import {CapabilitiesListComponent} from './third/capabilities-list/capabilities-list.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FifthComponent } from './fifth/fifth.component';
     SecondComponent,
     ThirdComponent,
     FourthComponent,
-    FifthComponent
+    FifthComponent,
+    CapabilitiesItemComponent,
+    CapabilitiesListComponent
   ],
   imports: [
     BrowserModule,
