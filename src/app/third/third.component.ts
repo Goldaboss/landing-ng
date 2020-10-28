@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 export interface Capabilities {
   icon: string;
   text: string;
+  iconSM?: boolean;
 }
 
 @Component({
@@ -20,7 +21,7 @@ export class ThirdComponent implements OnInit {
     {icon: 'icon-Union-3', text: 'Выстроить партнёрскую сеть по всей РФ'},
     {icon: 'icon-Union-4', text: 'Автоматизировать все рутинные операции'},
     {icon: 'icon-Union-5', text: 'Избежать ошибок, связанных с человеческим фактором, благодаря продуманной автоматизации'},
-    {icon: 'icon-Union-6', text: 'Выпускать «облачные» сертификаты электронной подписи'},
+    {icon: 'icon-Union-6', text: 'Выпускать «облачные» сертификаты электронной подписи', iconSM: true},
 ];
 
   ngOnInit(): void {

@@ -1,4 +1,4 @@
-.capabilities {
+/*.capabilities {
 
   &-item {
     display: flex;
@@ -24,6 +24,29 @@
       line-height: 1.8125rem;
     }
   }
+}*/
+
+.content {
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
 }
 
+.item {
+  display: flex;
+  align-items: center;
+}
 
+.icon {
+  font-size: 2.5rem;
+  line-height: 1;
+  color: #2E5473;
+  width: 5rem;
+  flex-shrink: 0;
+  display: block;
+  margin: auto 0;
+  text-align: center;
+}
+
+.icon-sm {
+  font-size: 2rem;
+}
