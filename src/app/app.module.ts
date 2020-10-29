@@ -11,8 +11,11 @@ import { FourthComponent } from './fourth/fourth.component';
 import { FifthComponent } from './fifth/fifth.component';
 import {CapabilitiesItemComponent} from './third/capabilities-item/capabilities-item.component';
 import {CapabilitiesListComponent} from './third/capabilities-list/capabilities-list.component';
-import { SixthComponent } from './sixth/sixth.component';
-import { FooterComponent } from './sixth/footer/footer.component';
+import {SixthComponent} from './sixth/sixth.component';
+import { SixthFooterComponent } from './sixth/sixth-footer/footer.component';
+import { SixthMainComponent } from './sixth/sixth-main/sixth-main.component';
+
+
 
 @NgModule({
   declarations: [
@@ -25,7 +28,8 @@ import { FooterComponent } from './sixth/footer/footer.component';
     CapabilitiesItemComponent,
     CapabilitiesListComponent,
     SixthComponent,
-    FooterComponent
+    SixthFooterComponent,
+    SixthMainComponent,
   ],
   imports: [
     BrowserModule,
