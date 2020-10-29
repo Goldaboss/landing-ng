@@ -11,6 +11,8 @@ import { FourthComponent } from './fourth/fourth.component';
 import { FifthComponent } from './fifth/fifth.component';
 import {CapabilitiesItemComponent} from './third/capabilities-item/capabilities-item.component';
 import {CapabilitiesListComponent} from './third/capabilities-list/capabilities-list.component';
+import { SixthComponent } from './sixth/sixth.component';
+import { FooterComponent } from './sixth/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import {CapabilitiesListComponent} from './third/capabilities-list/capabilities-
     FourthComponent,
     FifthComponent,
     CapabilitiesItemComponent,
-    CapabilitiesListComponent
+    CapabilitiesListComponent,
+    SixthComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
