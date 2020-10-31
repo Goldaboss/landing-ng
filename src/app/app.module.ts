@@ -12,8 +12,8 @@ import { FifthComponent } from './fifth/fifth.component';
 import {CapabilitiesItemComponent} from './third/capabilities-item/capabilities-item.component';
 import {CapabilitiesListComponent} from './third/capabilities-list/capabilities-list.component';
 import {SixthComponent} from './sixth/sixth.component';
-import { SixthFooterComponent } from './sixth/sixth-footer/footer.component';
 import { SixthMainComponent } from './sixth/sixth-main/sixth-main.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -28,8 +28,8 @@ import { SixthMainComponent } from './sixth/sixth-main/sixth-main.component';
     CapabilitiesItemComponent,
     CapabilitiesListComponent,
     SixthComponent,
-    SixthFooterComponent,
     SixthMainComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
