@@ -33,7 +33,7 @@ import {FirstModule} from './first/first.module';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FirstModule
+    FirstModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
