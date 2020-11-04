@@ -3,7 +3,6 @@ import {NgModule} from '@angular/core';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {SecondComponent} from './second/second.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {ThirdComponent} from './third/third.component';
 import {FourthComponent} from './fourth/fourth.component';
@@ -14,12 +13,14 @@ import {SixthComponent} from './sixth/sixth.component';
 import {SixthMainComponent} from './sixth/sixth-main/sixth-main.component';
 import {FooterComponent} from './footer/footer.component';
 import {FirstModule} from './first/first.module';
+import { HeaderComponent } from './second/components/header/header.component';
+import {SecondModule} from './second/second.module';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SecondComponent,
     ThirdComponent,
     FourthComponent,
     FifthComponent,
@@ -27,6 +28,8 @@ import {FirstModule} from './first/first.module';
     CapabilitiesListComponent,
     SixthComponent,
     SixthMainComponent,
+    // FooterComponent,
+    // HeaderComponent,
     FooterComponent,
   ],
   imports: [
@@ -34,6 +37,7 @@ import {FirstModule} from './first/first.module';
     AppRoutingModule,
     NgbModule,
     FirstModule,
+    SecondModule
   ],
   providers: [],
   bootstrap: [AppComponent]
