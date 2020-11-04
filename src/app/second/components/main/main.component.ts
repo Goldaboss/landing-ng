@@ -1,4 +1,5 @@
-import {ChangeDetectionStrategy, Component} from '@angular/core';
+import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
+import {Advantage} from '../second.component';
 
 @Component({
   selector: 'app-main',
@@ -7,6 +8,6 @@ import {ChangeDetectionStrategy, Component} from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MainComponent {
-
+  @Input() advantage: Advantage[];
 
 }

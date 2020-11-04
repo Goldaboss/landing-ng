@@ -4,6 +4,7 @@ import {SecondComponent} from './components/second.component';
 import {HeaderComponent} from './components/header/header.component';
 import {FooterComponent} from './components/footer/footer.component';
 import { MainComponent } from './components/main/main.component';
+import {AdvantageComponent} from './components/main/advantage/advantage.component';
 
 
 
@@ -13,6 +14,7 @@ import { MainComponent } from './components/main/main.component';
     HeaderComponent,
     FooterComponent,
     MainComponent,
+    AdvantageComponent,
   ],
   imports: [
     CommonModule

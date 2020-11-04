@@ -13,40 +13,6 @@
   padding: 0;
 }
 
-.item {
-  list-style: none;
-  display: flex;
-  padding-bottom: 1.875rem;
-
-  &-icon {
-    font-size: 5rem;
-    color: #9AD7FF;
-    display: block;
-    padding-right: 2rem;
-  }
-
-  &-title {
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #2C3E50;
-    margin: 0;
-    padding-bottom: 1.25rem;
-
-    &-small {
-      font-size: 1.15rem;
-    }
-  }
-
-  &-text {
-    font-weight: normal;
-    font-size: 1.16rem;
-    line-height: 1.4375rem;
-    color: #2E5473;
-    margin: 0;
-    padding-bottom: 2.5rem;
-  }
-}
-
 @media (max-width: 992px) {
   .main {
     padding: 0;

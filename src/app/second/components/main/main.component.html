@@ -1,6 +1,20 @@
 <div class="main">
   <div class="feature row">
-    <div class="item col-xl-6 col-md-6 col-12">
+    <app-advantage
+      *ngFor="let item of advantage"
+      [item]="item"
+      class="item col-xl-6 col-md-6 col-12"
+    ></app-advantage>
+<!--    <div class="item col-xl-6 col-md-6 col-12">-->
+<!--      <div class="item-icon">-->
+<!--        <span class="icon-1"></span>-->
+<!--      </div>-->
+<!--      <div class="item-content">-->
+<!--        <h3 class="item-title">Управление документами</h3>-->
+<!--        <p class="item-text">Вы выстраиваете свой документарный процесс. Формируете любые документы автоматически. Запрашивайте только те документы, которые соответствуют вашему процессу.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+    <!--<div class="item col-xl-6 col-md-6 col-12">
       <div class="item-icon">
         <span class="icon-1"></span>
       </div>
@@ -95,7 +109,7 @@
         <span class="icon-11"></span>
       </div>
       <div class="item-content">
-        <h3 class="item-title">Интеграция со СМЭВ <span class="item-title-small">(сервисы ФНС, ПФР, МВД, ЕСИА)</span></h3>
+        <h3 class="item-title">Интеграция со СМЭВ<span class="item-title-small">(сервисы ФНС, ПФР, МВД, ЕСИА)</span></h3>
         <p class="item-text">Интегрированы с системой межведомственного электронного взаимодействия для комфортного выполнения требований 63-ФЗ</p>
       </div>
     </div>
@@ -107,6 +121,6 @@
         <h3 class="item-title">Интеграция с ФНС</h3>
         <p class="item-text">Автоматическое заполнение карточки компании данными из ФНС</p>
       </div>
-    </div>
+    </div>-->
   </div>
 </div>

@@ -1,0 +1,56 @@
+.item {
+  list-style: none;
+  display: flex;
+  padding-bottom: 1.875rem;
+
+  &-icon {
+    font-size: 5rem;
+    color: #9AD7FF;
+    display: block;
+    padding-right: 2rem;
+  }
+
+  &-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #2C3E50;
+    margin: 0;
+    padding-bottom: 1.25rem;
+
+    &-small {
+      font-size: 1.15rem;
+    }
+  }
+
+  &-text {
+    font-weight: normal;
+    font-size: 1.16rem;
+    line-height: 1.4375rem;
+    color: #2E5473;
+    margin: 0;
+    padding-bottom: 2.5rem;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .item {
+    flex-direction: column;
+    padding: 0;
+    margin: 0 auto;
+
+    &-icon {
+      font-size: 2.6rem;
+    }
+
+    &-title {
+      font-size: 1.166rem;
+      padding-bottom: 1rem;
+    }
+
+    &-text {
+      font-size: 0.916rem;
+      padding-bottom: 2rem;
+    }
+  }
+}
