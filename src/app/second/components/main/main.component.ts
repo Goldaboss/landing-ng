@@ -14,6 +14,6 @@ export class MainComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.advantages = this.serviceAdvantage.data;
+    this.advantages = this.serviceAdvantage.advantageData;
   }
 }

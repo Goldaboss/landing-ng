@@ -12,12 +12,4 @@ export class AdvantageComponent {
   }
 
   @Input() item: Advantage;
-
-  public get addTitleSm(): string {
-    if (this.item.titleSm) {
-      return this.item.title + 'item.titleSm';
-    } else {
-      return this.item.title + '!';
-    }
-  }
 }
