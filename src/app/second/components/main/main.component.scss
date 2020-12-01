@@ -1,6 +1,6 @@
 :host {
   display: block;
-  padding: 0 4.875rem;
+  padding: 0 4.375rem;
 
   &-line {
     background: #F2F2F2;
@@ -9,10 +9,7 @@
   }
 }
 
-.feature {
-  margin: 0;
-  padding: 0;
-}
+
 
 @media (max-width: 992px) {
   :host {

@@ -1,13 +1,19 @@
-import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
-import {Advantage} from '../second.component';
+import {Component, OnInit} from '@angular/core';
+import {Advantage, AdvantageDataService} from '../../../service/advantage-service.service';
+
 
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class MainComponent {
-  @Input() advantage: Advantage[];
+export class MainComponent implements OnInit {
+  advantages: Advantage[] = [];
 
+  constructor(private serviceAdvantage: AdvantageDataService) {
+  }
+
+  ngOnInit(): void {
+    this.advantages = this.serviceAdvantage.data;
+  }
 }

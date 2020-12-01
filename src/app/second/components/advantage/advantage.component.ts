@@ -1,6 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {Advantage} from '../../second.component';
-
+import {Advantage} from '../../../service/advantage-service.service';
 
 @Component({
   selector: 'app-advantage',
@@ -8,6 +7,9 @@ import {Advantage} from '../../second.component';
   styleUrls: ['./advantage.component.scss']
 })
 export class AdvantageComponent {
+
+  constructor() {
+  }
 
   @Input() item: Advantage;
 
