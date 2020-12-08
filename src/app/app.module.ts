@@ -13,9 +13,8 @@ import {SixthComponent} from './sixth/sixth.component';
 import {SixthMainComponent} from './sixth/sixth-main/sixth-main.component';
 import {FooterComponent} from './footer/footer.component';
 import {FirstModule} from './first/first.module';
-import { HeaderComponent } from './second/components/header/header.component';
 import {SecondModule} from './second/second.module';
-
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -28,8 +27,6 @@ import {SecondModule} from './second/second.module';
     CapabilitiesListComponent,
     SixthComponent,
     SixthMainComponent,
-    // FooterComponent,
-    // HeaderComponent,
     FooterComponent,
   ],
   imports: [
@@ -37,7 +34,8 @@ import {SecondModule} from './second/second.module';
     AppRoutingModule,
     NgbModule,
     FirstModule,
-    SecondModule
+    SecondModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

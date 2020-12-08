@@ -10,10 +10,15 @@ import {Advantage, AdvantageDataService} from '../../../service/advantage-servic
 export class MainComponent implements OnInit {
   advantages: Advantage[] = [];
 
-  constructor(private serviceAdvantage: AdvantageDataService) {
+
+  constructor(
+    private serviceAdvantage: AdvantageDataService) {
   }
 
   ngOnInit(): void {
-    this.advantages = this.serviceAdvantage.advantageData;
+    this.serviceAdvantage.advantageData()
+      .subscribe(advantage => this.advantages = advantage);
+    console.log(this.advantages);
   }
+
 }
